@@ -1,0 +1,92 @@
+/*General aspects*/
+
+body {
+	background: black;
+}
+
+* {
+	/*border: 1px dashed red;*/
+	min-height: 10px;
+}
+
+.postcard {
+	background: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+	/*display: flex;*/
+}
+
+/*HEADER*/
+
+.postcard-header {
+	display: flex;
+	height: 70px;
+}
+
+.postcard-header-h1 {
+	margin: 0;
+	width: 80%;
+}
+
+.postcard-header-logo {
+	width: 20%;
+	height: 100%;
+}
+
+img {
+	width: 80%;
+	height: 80%;
+}
+
+h1 {
+	font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+/*BODY*/
+
+.postcard-body {
+	display: flex;
+}
+
+.body-left,
+.body-right {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.body-right {
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+p {
+	font-family: "Plus Jakarta Sans", sans-serif;
+	font-size: 15px;
+}
+
+input {
+	border: none;
+	border-bottom: black 1px;
+	height: 30%;
+	font-family: "Noto Serif", serif;
+}
+
+input hover {
+	background-color: lightblue;
+}
+/*FOOTER*/
+
+.postcard-footer {
+	height: 80px;
+	text-align: center;
+	align-items: center;
+}
+
+button {
+	background-color: grey;
+	padding: 5px;
+	font-family: "Noto Serif", serif;
+	border-radius: 5%;
+	color: white;
+}
